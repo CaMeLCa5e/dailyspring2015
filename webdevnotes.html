@@ -1,0 +1,96 @@
+
+datatbases
+
+grouped tables aka datasets full of entities. 
+
+
+
+mysql stuff - 
+
+VARCHAR aka string data (there is a limit to how long the text)
+VARCHAR(50)
+TEXT 
+BOOLEAN
+
+CRUD 
+SELECT * FROM jmartin_coffees;
+SELECT brand FROM jmartin_coffees WHERE faritrade=0; 
+
+Update in CRUD - 
+
+INSERT 
+INSERT INTO jmartin_coffees (brand, brew_type, country_origin)
+VALUES
+('FOLGERS', 'french press', 'Ethiopia');
+
+
+INSERT
+INTO jmartin_coffees
+(brand, brew_type, roast_type)
+VALUES
+('Petes', 'french press', )
+
+
+
+UPDATE jmartin_coffees
+SET 
+country_origin='Argintina'
+WHERE
+id=2
+
+
+UPDATE jmartin_coffees
+SET
+brand='Kraft Foods'
+WHERE 
+brand='Folgers'
+
+
+UPDATE jmartin_coffees
+SET 
+brand='starbucks', caffinated=1
+WHERE roast_type='extra dark'; 
+
+DELETE FROM jmartin_coffees
+WHERE brand='pete's';
+
+
+
+rows in tables look like : 
+
+Array
+(	[id] => 1
+	[name] => bill
+
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
