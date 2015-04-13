@@ -58,6 +58,14 @@ msg = return_greeting('hello', 'parrot')
 print msg
 
 
+# def by_lastname(name):
+# 	fname, lname = name.split()
+# 	return lname 
+
+# 	names = ['bill cunningham']
+# 	print sprted(names, key=by_lastname)
+
+
 
 
 
