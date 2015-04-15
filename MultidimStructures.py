@@ -13,7 +13,7 @@ iList2 = [5,6,7,8]
 myList.append(iList)
 myList.append(iList2)
 
-# print myList.append(iList)
+print myList.append(iList)
 
 print myList[1:-1]
 print myList[1][-1]
@@ -34,12 +34,11 @@ for iList in myList:
 	for el in iList:
 		print el
 
-
 dod = {
 	'db13': {
-				'fname': 'Joe',
-				'lname': 'wilson',
-				'tel': '9898989',
+			'fname': 'Joe',
+			'lname': 'wilson',
+			'tel': '9898989',
 			},
 
 	'db14': {
@@ -51,6 +50,8 @@ dod = {
 
 print dod ['db14'] ['fname']
 print dod ['db13'] ['tel']
+
+
 # print dod [0] [0] this will not run because there are no value numbers in a dict. 
 
 # tabular data organized in dicts.  used for look up facility. 
@@ -61,8 +62,8 @@ print dod ['db13'] ['tel']
 # 			'tel': '9898989',
 # 			},
 
-# for key, val in dod.items():
-# 	print key, val 
+for key, val in dod.items():
+	print key, val 
 
 
 
@@ -89,9 +90,6 @@ filename = 'FF.txt'
 
 # 	od[date] = id
 
-
-
-
 id = {}
 id['a'] = ['hh']
 id['1984'] = ['gg']
@@ -100,8 +98,9 @@ id['1987'] = ['ll']
 
 print id['1987']
 
-print id['1987'].append('3.4')
+id['1987'].append('3.4')
 # print id.append('a')
+print id['1987']
 
 
 
