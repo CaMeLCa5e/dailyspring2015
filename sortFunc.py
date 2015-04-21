@@ -23,7 +23,7 @@ print sorted(namelist, key=len)
 # the values dont change, they are just evaluated differently. 
 
 
-scores = {'jeb': 123, 'mithc': 98}
+scores = {'jeb': 123, 'mithc': 98}`
 sortedkeys = sorted(scores, key=scores.get)
 print sortedkeys
 # get takes one key and returns one value the sorted keys are evaluated by the key. 
