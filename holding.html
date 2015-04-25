@@ -1,0 +1,42 @@
+
+
+
+    <tr>
+        <th>To Email</th>
+        <td><input name="toEmail" type="text"></td>
+    </tr>
+    
+    
+
+
+
+    	<br>
+				<label style="float: left;">Your name:</label>
+				<br>
+				<input type="text" name="name" style="float: left;">
+				</input>
+				<br/>
+				<br>
+				<label style="float: left;">Your email:</label>
+				<br>
+				<input type="email" name="email" style="float: left;"/>
+				<br />
+				<br>
+				<label style="float: left;">Your message:</label>
+				<br/>
+				<textarea name="message" style="float: left;"></textarea>
+				<br/>
+				<br>
+				<br>
+				<input type="submit" value="Attach Resume" style="float: left;"/>
+				
+				<form method="post" action="attachments.php" enctype="multipart/form-data">
+				<input type="file" name="attach1"/>
+				<input type="submit" value="submit"/>
+		</form>
+				
+				
+				
+				<br>
+				<br>
+				<div class="clear"></div>
