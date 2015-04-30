@@ -1,0 +1,18 @@
+{
+  "name": "subwayApp",
+  "description": "",
+  "homepage": "",
+  "keywords": [
+  ],
+  "author": "",
+  "private": true,
+  "dependencies": {
+    "polymer": "Polymer/polymer#0.5.5",
+    "paper-elements": "Polymer/paper-elements#0.5.5"
+  },
+  "dependencies": {
+  "polymer": "Polymer/polymer#master",
+  "core-elements": "Polymer/core-elements#master",
+  "google-map": "PolymerLabs/google-map"
+}
+}
