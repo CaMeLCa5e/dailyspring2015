@@ -1,4 +1,4 @@
-list = ['3' '444' 'fffsdfsdf' '3']
+list = ['3', '444', 'fffsdfsdf', '3',]
 blankIter = ['x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x','x',]
 # s = ','.join(list)
 # s = s.strip(',')
