@@ -1,0 +1,16 @@
+RDD resilient distributed dataset (Caching)
+
+unified framework with standard SQL, Streaming, MLlib, GraphX.  Integrates well with Hadoop.  
+no need to grab data from hdfs.
+
+Streaming data processing. 
+
+Spark Clusters/ need hosting 
+
+Mllib - classifications, regression, clustering, linear algebra, algo... 
+
+feature transformation/statistics 
+
+started with sparse data and kmeans.  
+
+labeled > tokenizer > hashing > train logistic regression > eval 
